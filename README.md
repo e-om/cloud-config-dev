@@ -16,7 +16,7 @@ $ sudo ros install -c /var/lib/rancher/config/cloud-config.yml -d /dev/sda)
 $ Reboot Y/N..? Yes
 ```
 
-Doc info install: https://docs.rancher.com/os/running-rancheros/server/install-to-disk/
+Doc info install: https://rancher.com/docs/os/v1.2/en/running-rancheros/server/install-to-disk/
 
 Doc info cloud config: https://rancher.com/docs/os/v1.2/en/configuration/
 
