@@ -1,0 +1,24 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB......EoH rancher@rancher
+  - ssh-rsa AAAAB......EoH user1@rancher
+  - ssh-rsa AAAAB......EoH user2@rancher
+rancher:
+  # Change console default for debian
+  console: debian
+  network:
+    dns:
+      nameservers:
+        - 8.8.8.8
+        - 8.8.4.4
+    interfaces:
+      eth0:
+        #address: 172.20.74.148/24
+        #gateway: 172.20.74.254
+        #mtu: 1500
+        dhcp: true
+      eth1:
+        address: 3.3.3.100/24
+        mtu: 1500
+        dhcp: false
+      lo:
+        address: 127.0.0.1/8
