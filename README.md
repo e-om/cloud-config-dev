@@ -37,3 +37,8 @@ $ sudo route add default gw 172.20.74.254
 ```
 $ docker rm -f $(docker ps -qa)
 ```
+
+#### Shell Container Run
+```
+docker exec -i -t 665b4a1e17b6 /bin/bash
+```
