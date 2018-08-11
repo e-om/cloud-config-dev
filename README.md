@@ -32,3 +32,8 @@ $ sudo ros config export
 $ sudo ip addr add 172.20.74.148/24 dev eth0
 $ sudo route add default gw 172.20.74.254
 ```
+
+#### Stop and Delete all container run
+```
+$ docker rm -f $(docker ps -qa)
+```
