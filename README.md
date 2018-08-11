@@ -1,7 +1,7 @@
 # cloud-config-dev
 RancherOS Cloud Config virtual DEV.
 
-File base config VirualBox create for *RancerOS.iso*
+File base config VirualBox create for *[RancerOS.iso](https://github.com/rancher/os/releases/)*
 
 #### Config manual for console after install in new VM
 
